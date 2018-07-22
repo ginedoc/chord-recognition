@@ -25,7 +25,7 @@ def note_predict(note_arr):
 
 #####################
 if __name__ == "__main__":
-	fw = open('../data/result.csv', 'w')
+	fw = open('../data/result.csv', 'a')
 	chord = []
 	note = []
 
